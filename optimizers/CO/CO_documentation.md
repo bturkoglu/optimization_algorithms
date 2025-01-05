@@ -79,7 +79,7 @@ X_new = X_current + r_Hat^(-1) * alpha
 Orijinal denklem:
 $X_{i,j}^{t+1} = X_{i,j}^t + \hat r_{i,j}^{-1} \cdot a_{i,j}^t$ <br/>
 * $$X_{i,j}^t$$ : *i.* çitanın şu anki pozisyonunun *j.* boyuttaki değeri
-* $$X_{i,j}^{t+1}$$ : *i.* çitanın bir sonraki pozisyonunun *j.* boyuttaki değeri
+* $$X_{i,j}^{t+1}$$ : *i.* çitanın yeni pozisyonunun *j.* boyuttaki değeri
 * *t* : şu anki zaman (*t.* iterasyon)
 * $$\hat r_{i,j}^{-1}$$ : *i.* çitanın pozisyonunun *j.* boyuttaki değeri için rastgele bir sayısal değer
 * $$a_{i,j}^t$$ : *i.* çitanın şu anki pozisyonunun *j.* boyuttaki değeri için adım sayısı (step size) değeri 
@@ -95,7 +95,7 @@ X_new = X_current
 Orijinal denklem:
 $$X_{i,j}^{t+1} = X_{i,j}^t$$ <br/>
 * $$X_{i,j}^t$$ : *i.* çitanın şu anki pozisyonunun *j.* boyuttaki değeri
-* $$X_{i,j}^{t+1}$$ : *i.*çitanın bir sonraki pozisyonunun *j.* boyuttaki değeri 
+* $$X_{i,j}^{t+1}$$ : *i.*çitanın yeni pozisyonunun *j.* boyuttaki değeri 
 
 <br/>
 <br/>
