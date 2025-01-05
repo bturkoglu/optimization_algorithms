@@ -20,8 +20,9 @@ Bu faktörler: avın durumu, kendi durumu, bulunduğu alan, ava olan uzaklığı
 Çitalar avlanırken belirli faktörleri (avın durumu, avcının alanı kapsama durumu, avcının kendi durumu) göz önünde bulundurarak, iki stratejiden birini seçip arama yaparlar: durup alanı taramak veya alanda dolaşmak. 
 Durup etrafı taramak eğer av yoğunsa (ör: sürü halinde dolaşıyorsa) veya avın kendisi de alanda dolaşıyorsa iyi bir seçimdir. 
 Öte yandan dolaşarak arama ise av daha hareketli olduğunda seçilir ama avcı için enerji maliyeti daha fazladır. <br/>
-_Arama_ stratejisinin grafiksel gösterimi: <br/>
-![search_graphical](<Screenshot 2024-12-19 192824.png>)
+![Screenshot 2024-12-19 192824](https://github.com/user-attachments/assets/87633660-2d59-4fbb-b104-64b0541a866e)
+<br/>
+_arama_ stratejisinin grafiksel gösterimi
 
 <br/>
 
@@ -29,19 +30,27 @@ _Arama_ stratejisinin grafiksel gösterimi: <br/>
 Çitalar _arama_ fazındayken avın çitayı fark edip kaçması gibi bir risk oluşabilmektedir. 
 Avın kaçması riskini ortadan kaldırmak için çitalar oldukları yerde bekleyip pusu kurarlar ve avın onlara yaklaşmasını beklerler.
 Bu strateji algoritmik olarak popülasyondaki bireylerin aynı anda hareket etmesini engeller ve böylece erken yakınsama (convergence) 
-problemini ortadan kaldırmaya yardımcı olur. Böylece daha optimal bir sonuca ulaşılabilir.
+problemini ortadan kaldırmaya yardımcı olur. Böylece daha optimal bir sonuca ulaşılabilir. <br/>
+![Screenshot 2024-12-19 192853](https://github.com/user-attachments/assets/d84c38b0-9034-41b1-a72c-a303688db80a)
+<br/>
+*otur-ve-bekle* stratejisinin grafiksel gösterimi
 
 <br/>
 
 ### Saldır (Attack)
 Saldırı stratejisi temel olarak 2 adımdan oluşmaktadır: 
 hücum (çita saldırmaya karar verdiğinde ava doğru hızlıca koşması) ve yakalama (çitanın hız ve esneklik kabiliyetlerini kullanarak avını yakalaması). Çita avını gördükten sonra hızlıca koşmaya ve böylece aralarındaki mesafeyi azaltmaya çalışır, buna *hücum (rushing)* fazı denir. Aralarındaki mesafe küçüldükten sonra çita esneklik kabiliyetlerini kullanarak avın ani hareketlerine göre hareket eder ve onu sıkıştırmaya çalışır, buna da *yakalama (capturing)* fazı denir.
-*saldır* stratejisini tek bir çitanın uygulayabileceği gibi -böyle bir durumda bazı çitalar hareketsiz kalabilir-, grup halinde saldırı da yapılabilir. Böyle bir durumda gruptaki bireyler, pozisyonlarını kaçan ava göre veya lider ya da komşu çitaya göre günceller.
+*saldır* stratejisini tek bir çitanın uygulayabileceği gibi -böyle bir durumda bazı çitalar hareketsiz kalabilir-, grup halinde saldırı da yapılabilir. Böyle bir durumda gruptaki bireyler, pozisyonlarını kaçan ava göre veya lider ya da komşu çitaya göre günceller. <br/>
 
-*saldır* stratejisinin *hücum* fazının grafiksel gösterimi:
-![attack-rushing_graph](<Screenshot 2024-12-19 192912.png>) <br/>
-*saldır* stratejisinin *yakalama* fazının grafiksel gösterimi: 
-![attack-capturing_graph](<Screenshot 2024-12-19 192924.png>)
+![Screenshot 2024-12-19 192912](https://github.com/user-attachments/assets/b3a8e60b-916e-44e0-8a8e-5a40ab99bb0f)
+<br/>
+*saldır* stratejisinin *hücum* fazının grafiksel gösterimi
+<br/>
+<br/>
+![Screenshot 2024-12-19 192924](https://github.com/user-attachments/assets/66579edf-f936-4629-b94f-623e452699f2)
+<br/>
+*saldır* stratejisinin *yakalama* fazının grafiksel gösterimi
+<br/>
 
 <br/>
 
