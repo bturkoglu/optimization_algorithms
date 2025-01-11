@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Saturday, January 4 11.25 2025
 
-@author: Ege Çıtak
-"""
 from pathlib import Path
 import optimizers.PSO as pso
 import optimizers.MVO as mvo
