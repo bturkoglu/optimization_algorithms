@@ -11,8 +11,8 @@ from optimizer import run
 # "SSA","PSO","GA","BAT","FFA","GWO","WOA","MVO","MFO","CS","HHO","SCA","JAYA","DE","MGO","EO","COA","ChOA"
 #optimizer = ["SSA", "PSO", "GWO"]
 
+optimizer = ["AAA","SSA","PSO","GA","BAT","FFA","GWO","WOA","MVO","MFO","CS","HHO","SCA","JAYA","DE","FDA","COA","MPA","MGO","COAti"]
 
-optimizer = ["AAA","SSA","PSO","GA","BAT","FFA","GWO","WOA","MVO","MFO","CS","HHO","SCA","JAYA","DE","FDA","COA","MPA"]
 
 
 # Select benchmark function"
