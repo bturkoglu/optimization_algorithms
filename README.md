@@ -142,6 +142,7 @@ Bu depo, Optimizasyona Giriş dersi kapsamında öğrencilerin atanan optimizasy
 - Ege Kavak
 - Bilge Göksel
 - Ege Çıtak
+- Zeynep Cahan
 
 
 ## Başarılar!
