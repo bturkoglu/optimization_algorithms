@@ -29,4 +29,4 @@ def run(results_directory, optimizer, objectivefunc, Iterations):
         fig_name = results_directory + "/convergence-" + objective_name + ".png"
         plt.savefig(fig_name, bbox_inches="tight")
         plt.clf()
-        # plt.show()
+        #plt.show()
