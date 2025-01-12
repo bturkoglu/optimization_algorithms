@@ -24,6 +24,7 @@ import optimizers.ChOA.ChOA as choa
 import optimizers.COA as coa
 import optimizers.EO as eo
 import optimizers.MPA as mpa
+import optimizers.CO.CO as co
 
 import benchmarks
 import csv
@@ -85,6 +86,8 @@ def selector(algo, func_details, popSize, Iter):
         x = choa.ChOA(getattr(benchmarks, function_name), lb, ub, dim, popSize, Iter)
     elif algo == "COA":
         x = coa.COA(getattr(benchmarks, function_name), lb, ub, dim, popSize, Iter)
+    elif algo == "CO":
+        x = co.CO(getattr(benchmarks, function_name), lb, ub, dim, popSize, Iter)
     elif algo == "EO":
         x = eo.EO(getattr(benchmarks, function_name), lb, ub, dim, popSize, Iter) 
     elif algo == "MPA":
