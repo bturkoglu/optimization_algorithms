@@ -144,6 +144,8 @@ Bu depo, Optimizasyona Giriş dersi kapsamında öğrencilerin atanan optimizasy
 - Ege Çıtak
 - Zeynep Cahan
 - Abdullah Yıldırım
+- Emre Diş
+
 
 
 ## Başarılar!

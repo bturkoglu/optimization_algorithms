@@ -13,10 +13,17 @@ from optimizer import run
 # optimizer = ["SSA", "PSO", "GWO"]
 # optimizer = ["AAA","SSA","PSO","GA","BAT","FFA","GWO","WOA","MVO","MFO","CS","HHO","SCA","JAYA","DE","MGO"]
 
+
 # "SSA","PSO","GA","BAT","FFA","GWO","WOA","MVO","MFO","CS","HHO","SCA","JAYA","DE","MGO","EO","COA","ChOA","HOA"
 #optimizer = ["SSA", "PSO", "GWO"]
 
-optimizer = ["AAA","SSA","PSO","GA","BAT","FFA","GWO","WOA","MVO","MFO","CS","HHO","SCA","JAYA","DE","FDA","APO","COA","MPA","MGO","COAti","EO","ChOA","CO","HOA"]
+#optimizer = ["AAA","SSA","PSO","GA","BAT","FFA","GWO","WOA","MVO","MFO","CS","HHO","SCA","JAYA","DE","FDA","APO","COA","MPA","MGO","COAti","EO","ChOA","CO","HOA"]
+
+# "SSA","PSO","GA","BAT","FFA","GWO","WOA","MVO","MFO","CS","HHO","SCA","JAYA","DE","MGO","EO","COA","ChOA","AOA"
+#optimizer = ["SSA", "PSO", "GWO"]
+
+optimizer = ["AAA","SSA","PSO","GA","BAT","FFA","GWO","WOA","MVO","MFO","CS","HHO","SCA","JAYA","DE","FDA","APO","COA","MPA","MGO","COAti","EO","ChOA","CO","HOA","AOA"]
+
 
 
 # Select benchmark function"
