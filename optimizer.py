@@ -20,6 +20,7 @@ import optimizers.SCA as sca
 import optimizers.JAYA as jaya
 import optimizers.DE as de
 import optimizers.AAA as aaa
+import optimizers.GTO.GTO as gto
 
 import benchmarks
 import csv
@@ -69,8 +70,10 @@ def selector(algo, func_details, popSize, Iter):
         x = de.DE(getattr(benchmarks, function_name), lb, ub, dim, popSize, Iter)
     elif algo == "AAA":
         x = aaa.AAA(getattr(benchmarks, function_name), lb, ub, dim, popSize, Iter)
+    elif algo == "GTO":
+        x = gto.GTO(getattr(benchmarks, function_name), lb, ub, dim, popSize, Iter)    
     else:
-        return null
+        return None
     return x
 
 
