@@ -133,7 +133,6 @@ Bu depo, Optimizasyona Giriş dersi kapsamında öğrencilerin atanan optimizasy
 - **Ofis Saatleri**: [Perşembe 13:00 14:15 ]
 
 ## Contributor
-- Emre Diş
 - Baran Bingöl
 - Ural Altan Bozkurt
 - Eriş Söylemez
@@ -145,7 +144,7 @@ Bu depo, Optimizasyona Giriş dersi kapsamında öğrencilerin atanan optimizasy
 - Zeynep Cahan
 - Abdullah Yıldırım
 - Emre Diş
-
+- Edagül Akdeniz
 
 
 ## Başarılar!
