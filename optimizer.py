@@ -16,6 +16,7 @@ import optimizers.SCA as sca
 import optimizers.JAYA as jaya
 import optimizers.DE as de
 import optimizers.AAA as aaa
+import optimizers.GTO.GTO as gto
 import optimizers.FDA as FDA
 import optimizers.APO as apo
 import optimizers.MGO.MGO as mgo
@@ -27,7 +28,6 @@ import optimizers.MPA as mpa
 import optimizers.CO.CO as co
 import optimizers.HOA.HOA as hoa
 import optimizers.AOA.AOA as aoa
-
 
 import benchmarks
 import csv
@@ -77,6 +77,8 @@ def selector(algo, func_details, popSize, Iter):
         x = de.DE(getattr(benchmarks, function_name), lb, ub, dim, popSize, Iter)
     elif algo == "AAA":
         x = aaa.AAA(getattr(benchmarks, function_name), lb, ub, dim, popSize, Iter)
+    elif algo == "GTO":
+        x = gto.GTO(getattr(benchmarks, function_name), lb, ub, dim, popSize, Iter)    
     elif algo == "FDA":
         x = FDA.FDA(getattr(benchmarks, function_name), lb, ub, dim, popSize, Iter)
     elif algo == "APO":

@@ -22,7 +22,11 @@ from optimizer import run
 # "SSA","PSO","GA","BAT","FFA","GWO","WOA","MVO","MFO","CS","HHO","SCA","JAYA","DE","MGO","EO","COA","ChOA","AOA"
 #optimizer = ["SSA", "PSO", "GWO"]
 
-optimizer = ["AAA","SSA","PSO","GA","BAT","FFA","GWO","WOA","MVO","MFO","CS","HHO","SCA","JAYA","DE","FDA","APO","COA","MPA","MGO","COAti","EO","ChOA","CO","HOA","AOA"]
+#optimizer = ["AAA","SSA","PSO","GA","BAT","FFA","GWO","WOA","MVO","MFO","CS","HHO","SCA","JAYA","DE", "GTO"]
+              
+
+
+optimizer = ["AAA","SSA","PSO","GA","BAT","FFA","GWO","WOA","MVO","MFO","CS","HHO","SCA","JAYA","DE","FDA","APO","COA","MPA","MGO","COAti","EO","ChOA","CO","HOA","AOA","GTO"]
 
 
 
