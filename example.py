@@ -13,10 +13,10 @@ from optimizer import run
 # optimizer = ["SSA", "PSO", "GWO"]
 # optimizer = ["AAA","SSA","PSO","GA","BAT","FFA","GWO","WOA","MVO","MFO","CS","HHO","SCA","JAYA","DE","MGO"]
 
-# "SSA","PSO","GA","BAT","FFA","GWO","WOA","MVO","MFO","CS","HHO","SCA","JAYA","DE","MGO","EO","COA","ChOA"
+# "SSA","PSO","GA","BAT","FFA","GWO","WOA","MVO","MFO","CS","HHO","SCA","JAYA","DE","MGO","EO","COA","ChOA","AOA"
 #optimizer = ["SSA", "PSO", "GWO"]
 
-optimizer = ["AAA","SSA","PSO","GA","BAT","FFA","GWO","WOA","MVO","MFO","CS","HHO","SCA","JAYA","DE","FDA","APO","COA","MPA","MGO","COAti","EO","ChOA","CO"]
+optimizer = ["AAA","SSA","PSO","GA","BAT","FFA","GWO","WOA","MVO","MFO","CS","HHO","SCA","JAYA","DE","FDA","APO","COA","MPA","MGO","COAti","EO","ChOA","CO","AOA"]
 
 
 # Select benchmark function"
