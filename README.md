@@ -134,6 +134,19 @@ Bu depo, Optimizasyona Giriş dersi kapsamında öğrencilerin atanan optimizasy
 
 ## Contributor
 - Emre Diş
+- Baran Bingöl
+- Ural Altan Bozkurt
+- Eriş Söylemez
+- Kenan Şentürk
+- Mustafa Surhay Samsa
+- Ege Kavak
+- Bilge Göksel
+- Ege Çıtak
+- Zeynep Cahan
+- Abdullah Yıldırım
+- Emre Diş
+
+
 
 ## Başarılar!
 
