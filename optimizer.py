@@ -25,6 +25,7 @@ import optimizers.COA as coa
 import optimizers.EO as eo
 import optimizers.MPA as mpa
 import optimizers.CO.CO as co
+import optimizers.HOA.HOA as hoa
 
 import benchmarks
 import csv
@@ -91,7 +92,9 @@ def selector(algo, func_details, popSize, Iter):
     elif algo == "EO":
         x = eo.EO(getattr(benchmarks, function_name), lb, ub, dim, popSize, Iter) 
     elif algo == "MPA":
-        x = mpa.MPA(getattr(benchmarks, function_name), lb, ub, dim, popSize, Iter)    
+        x = mpa.MPA(getattr(benchmarks, function_name), lb, ub, dim, popSize, Iter)
+    elif algo == "HOA":
+        x = hoa.HOA(getattr(benchmarks, function_name), lb, ub, dim, popSize, Iter)
     else:
         return None # burdaki typo'yu düzelttim. null yazıyordu Python için "None" olması gerekiyor.
     return x
