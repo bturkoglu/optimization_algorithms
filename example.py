@@ -22,12 +22,12 @@ from optimizer import run
 # "SSA","PSO","GA","BAT","FFA","GWO","WOA","MVO","MFO","CS","HHO","SCA","JAYA","DE","MGO","EO","COA","ChOA","AOA"
 #optimizer = ["SSA", "PSO", "GWO"]
 
+
 #optimizer = ["AAA","SSA","PSO","GA","BAT","FFA","GWO","WOA","MVO","MFO","CS","HHO","SCA","JAYA","DE", "GTO"]
               
 
 
-optimizer = ["AAA","SSA","PSO","GA","BAT","FFA","GWO","WOA","MVO","MFO","CS","HHO","SCA","JAYA","DE","FDA","APO","COA","MPA","MGO","COAti","EO","ChOA","CO","HOA","AOA","GTO"]
-
+optimizer = ["AAA","SSA","PSO","GA","BAT","FFA","GWO","WOA","MVO","MFO","CS","HHO","SCA","JAYA","DE","FDA","APO","COA","MPA","MGO","COAti","EO","ChOA","CO","HOA","AOA","GTO","HEOA"]
 
 
 # Select benchmark function"
@@ -42,7 +42,9 @@ objectivefunc = ["F1"]
 NumOfRuns = 3
 
 # Select general parameters for all optimizers (population size, number of iterations) ....
+
 params = {"PopulationSize": 40, "Iterations": 125}
+
 
 # Choose whether to Export the results in different formats
 export_flags = {

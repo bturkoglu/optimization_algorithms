@@ -24,10 +24,12 @@ import optimizers.COAti.COAti as coati
 import optimizers.ChOA.ChOA as choa
 import optimizers.COA as coa
 import optimizers.EO as eo
+import optimizers.HEOA as heoa
 import optimizers.MPA as mpa
 import optimizers.CO.CO as co
 import optimizers.HOA.HOA as hoa
 import optimizers.AOA.AOA as aoa
+
 
 import benchmarks
 import csv
@@ -85,6 +87,8 @@ def selector(algo, func_details, popSize, Iter):
         x = apo.APO(getattr(benchmarks, function_name), lb, ub, dim, popSize, Iter)
     elif algo == "MGO":
         x = mgo.MGO(getattr(benchmarks, function_name), lb, ub, dim, popSize, Iter)
+    elif algo == "HEOA":
+        x = heoa.HEOA(getattr(benchmarks, function_name), lb, ub, dim, popSize, Iter)     
     elif algo == "COAti":
         x = coati.COAti(getattr(benchmarks, function_name), lb, ub, dim, popSize, Iter)
     elif algo == "ChOA":
@@ -163,7 +167,7 @@ def run(optimizer, objectivefunc, NumOfRuns, params, export_flags):
             executionTime = [0] * NumOfRuns
             for k in range(0, NumOfRuns):
                 func_details = benchmarks.getFunctionDetails(objectivefunc[j])
-                x = selector(optimizer[i], func_details, PopulationSize, Iterations)
+                x = selector(optimizer[i], func_details, PopulationSize, Iterations)    
                 convergence[k] = x.convergence
                 optimizerName = x.optimizer
                 objfname = x.objfname
