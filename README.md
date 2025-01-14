@@ -145,6 +145,7 @@ Bu depo, Optimizasyona Giriş dersi kapsamında öğrencilerin atanan optimizasy
 - Abdullah Yıldırım
 - Emre Diş
 - Edagül Akdeniz
+- Beyza nur Saygıner
 
 
 ## Başarılar!
